@@ -323,35 +323,35 @@ function startPhotoShow() {
     const photos = [
         {
             text: 'Our First Date 💕',
-            image: '/photo.1.jpg'
+            image: 'photo.1.jpg'
         },
         {
             text: 'Laksamana photos 🎂',
-            image: '/photo.2.jpg'
+            image: 'photo.2.jpg'
         },
         {
             text: 'Adventure Time 🌟',
-            image: '/photo.3.jpg'
+            image: 'photo.3.jpg'
         },
         {
             text: 'Hafla photos ❤️',
-            image: '/photo.4.jpg'
+            image: 'photo.4.jpg'
         },
         {
             text: 'Sweet Memories 🥰',
-            image: '/photo.5.jpg'
+            image: 'photo.5.jpg'
         },
         {
             text: 'Laksamana children 😂',
-            image: '/photo.6.jpg'
+            image: 'photo.6.jpg'
         },
         {
             text: 'Perfect Day ☀️',
-            image: '/photo.7.jpg'
+            image: 'photo.7.jpg'
         },
         {
             text: 'Love Forever 💖',
-            image: '/photo.8.jpg'
+            image: 'photo.8.jpg'
         }
     ];
     
