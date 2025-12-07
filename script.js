@@ -225,11 +225,11 @@ function startTypewriter() {
     
     const fullMessage = `Hi,
 
-Happy Birthday!
+Happy Birthday, Laksamanaa!
 
-Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.
+Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, Semoga suatu saat nanti keinginan mu lolos akabri akan menjadi nyata, Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.
 
-Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).
+Terima kasih udah jadi "just friend" aku yang paling berharga. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya ga males-malesan lagi dong (walaupun kadang di lakuin si, isokei tapi jangan di ulangin lagi ya sayang💓).
 
 I love you so much! 💕`;
     
@@ -266,7 +266,7 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Cel,<br><br>Happy Birthday!<br><br>Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).<br><br>I love you so much! 💕`;
+            const fullMessage = `Hi Cel,<br><br>Happy Birthday, Laksmaana!<br><br>Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, Semoga suatu saat nanti keinginanmu lolos akabri akan menjadi nyata, Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Terima kasih udah jadi "just friend" aku yang paling berharga. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tenntunya ga males-malesan lagi dong (walaupun kadang di lakuin si, isokei tapi jangan di ulangin lagi ya sayang💓).<br><br>I love you so much! 💕`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
@@ -326,7 +326,7 @@ function startPhotoShow() {
             image: './images/photo1.jpg'
         },
         {
-            text: 'Birthday Moment 🎂',
+            text: 'Laksamana photos 😻',
             image: './images/photo2.jpg'
         },
         {
@@ -334,7 +334,7 @@ function startPhotoShow() {
             image: './images/photo3.jpg'
         },
         {
-            text: 'Cozy Together ❤️',
+            text: 'Haflaa photos ❤️',
             image: './images/photo4.jpg'
         },
         {
@@ -342,7 +342,7 @@ function startPhotoShow() {
             image: './images/photo5.jpg'
         },
         {
-            text: 'Laugh Together 😂',
+            text: 'Laksamana children 😘',
             image: './images/photo6.jpg'
         },
         {
@@ -612,13 +612,13 @@ function loadSpotifyPlaylist(playlistNumber) {
             // Ganti dengan playlist pertama kamu
             embedUrl: 'https://open.spotify.com/embed/playlist/37i9dQZF1DWYtQSOiZF6hj?si=0b945793c2934ba1',
             name: 'Birthday Special Mix',
-            description: 'Lagu-lagu spesial untuk hari istimewa kamu ✨'
+            description: 'Lagu spesial untuk kamu, maff klo ga suka sama lagunya yip ✨'
         },
         2: {
             // Ganti dengan playlist kedua kamu
             embedUrl: 'https://open.spotify.com/embed/playlist/3gPSenyxZMdB3A54HeEruz?si=6b4dec830d4f4a48',
             name: 'Love Songs Collection',
-            description: 'Koleksi lagu cinta terbaik untuk kita ❤️'
+            description: 'Koleksi lagu akuu, hehehehe jele bgt seleranya ❤️'
         },
         3: {
             // Ganti dengan playlist ketiga kamu
